@@ -6,7 +6,7 @@
 
 /* Потом селекторы по тегам */
 
-html {
+html { font-family: Arial;
 
 }
 
@@ -15,8 +15,18 @@ main {
     margin: 0px auto;
 }
 
-p {
+h2 {
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 8x;
+}
 
+h3 {
+    margin-top: 8px;
+}
+
+p {
+    line-height: 200%;
 }
 
 a {
@@ -131,5 +141,13 @@ a {
 }
 
 .button-link {
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    background-color: #554AF0;
+    color: #fff;
+
+    text-decoration: none;
+    margin-right: 16px;
 
 }

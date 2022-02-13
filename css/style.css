@@ -25,11 +25,11 @@ a {
 
 /* Колонки */
 
-.row {
+.row { display: flex;
 
 }
-.col {
- border: 25px solid white;
+.col { flex: auto;
+    margin-bottom: 24px;
 }
 
 
@@ -64,31 +64,49 @@ a {
 
 /* Страничка жанров и тегов */
 
-.genre-first { background-color: #E1F5EA; color: black;
-
+.genre-first {
+    margin: 16px 0px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E1F5EA;
 
 
 }
 
 .genre-second {
+    margin: 16px 0px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CBEDFF;
+    width: 75%;
 
 }
 
-.genre-third {
-
+.genre-third { margin: 16px 0px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EEE5BD;
+    width: 50%;
 }
 
-.genre-fourth {
-
+.genre-fourth { margin: 16px 0px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EBDCF9 ;
+    width: 33%;
 }
 
-.tag {
+.tag { color: #554AF0;
 
 }
 
 /* Страничка популярного */
 
-.cover {
+.cover { width: 85%;
 
 }
 
